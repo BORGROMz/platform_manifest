@@ -2,12 +2,13 @@
 <manifest>
 
   <remote  name="aosp"
-           fetch="https://android-review.googlesource.com/" />
+           fetch="https://android.googlesource.com/"
+           review="https://android-review.googlesource.com/" />
   <remote  name="borg"
            fetch="git://github.com/BORGROMz/" />         
   <default revision="refs/tags/android-5.1.0_r5"
            remote="aosp"
-           sync-j="4" />
+           sync-j="8" />
 
   <project path="build" name="android_build" groups="pdk,tradefed" remote="borg" revision="master" >
     <copyfile src="core/root.mk" dest="Makefile" />
