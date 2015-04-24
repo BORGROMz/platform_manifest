@@ -7,7 +7,7 @@
   <remote  name="borg"
            fetch="git://github.com/BORGROMz/" />
   <remote  name="crm"
-           fetch="https://github.com/Chroma-Aosp" />
+           fetch="git://github.com/Chroma-Aosp/" />
   <default revision="refs/tags/android-5.1.1_r1"
            remote="aosp"
            sync-j="8" />
