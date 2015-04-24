@@ -5,9 +5,9 @@
            fetch="https://android.googlesource.com/"
            review="https://android-review.googlesource.com/" />
   <remote  name="borg"
-           fetch="git://github.com/BORGROMz/" />
+           fetch="https://github.com/BORGROMz/" />
   <remote  name="crm"
-           fetch="git://github.com/Chroma-Aosp/" />
+           fetch="https://github.com/Chroma-Aosp/" />
   <default revision="refs/tags/android-5.1.1_r1"
            remote="aosp"
            sync-j="8" />
@@ -482,6 +482,6 @@
   <project path="tools/studio/translation" name="platform/tools/studio/translation" groups="notdefault,tools" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
-  <project path="vendor/moto/shamu" name="vendor/moto/shamu" remote="cmr" revision="5.1" />
+  <project path="vendor/moto/shamu" name="vendor_moto_shamu" remote="cmr" revision="5.1" />
 
 </manifest>
