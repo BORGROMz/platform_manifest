@@ -26,7 +26,6 @@
   <project name="device/qcom/sepolicy" revision="deab094d01c2629e53deb67c9c3f0d5355107c21" upstream="sepolicy.lnx.2.0.c2-rel"/>
   <project groups="pdk" name="device/sample" revision="6b3cc4bca54cb3af77d04d4dd13148bf9d8251ba" upstream="android-framework.lnx.2.0.c1-rel"/>
   <project name="kernel/lk" path="bootable/bootloader/lk" revision="f4552b0d599b4854dca3994026df9aa55545109f" upstream="lk.lnx.1.0.c5-rel"/>
-  <project name="kernel/msm-3.18" revision="18851f111aad6fca33b4f6f20ec625bc0d704650" upstream="rel/msm-3.18.c5"/>
   <project groups="pdk" name="platform/abi/cpp" path="abi/cpp" revision="36b381298a4efb7c293d394d8b1acbda68230989" upstream="android-framework.lnx.2.0.c1-rel"/>
   <project groups="pdk" name="platform/art" path="art" revision="5c91f029f7805d86cecd7ea5114ce7e9ea18e015" upstream="android-framework.lnx.2.0.c1-rel"/>
   <project groups="pdk" name="platform/bionic" path="bionic" revision="de0450a90438db48f025381e582e5c2f81eea1b6" upstream="android-framework.lnx.2.0.c1-rel"/>
@@ -445,8 +444,6 @@
   <project groups="pdk,linux" name="platform/prebuilts/clang/linux-x86/host/3.6" path="prebuilts/clang/linux-x86/host/3.6" revision="b660e8f76f1543abf50ebfbdb8d10112d93fec3d" upstream="android-framework.lnx.2.0.c1-rel"/>
   <project groups="pdk-fs" name="platform/prebuilts/deqp" path="prebuilts/deqp" revision="79ee2a5edf22b3d80c41a6234a835d18ba62d6e2" upstream="android-framework.lnx.2.0.c1-rel"/>
   <project groups="pdk-fs" name="platform/prebuilts/devtools" path="prebuilts/devtools" revision="d054448a1147fc5294089b6ac7aa3abe92202761" upstream="android-framework.lnx.2.0.c1-rel"/>
-  <project groups="pdk" name="platform/prebuilts/eclipse" path="prebuilts/eclipse" revision="cf9f78f8cf41b16edf9f712598a42743d5cea4af" upstream="android-framework.lnx.2.0.c1-rel"/>
-  <project groups="pdk,darwin,arm" name="platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.8" path="prebuilts/gcc/darwin-x86/arm/arm-eabi-4.8" revision="6d08ca9f45ff685648fd13c75bf5cac4b11c19bb" upstream="android-framework.lnx.2.0.c1-rel"/>
   <project groups="pdk,linux,arm" name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" revision="6ca6746f5fafd7d1b162451dce2ae40741529e9e" upstream="android-framework.lnx.2.0.c1-rel"/>
   <project groups="pdk,linux,arm" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" revision="26e93f6af47f7bd3a9beb5c102a5f45e19bfa38a" upstream="android-framework.lnx.2.0.c1-rel"/>
   <project groups="pdk,linux,arm" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" revision="0390252b6bcc6217966ade31d07f8b12f6f78f89" upstream="android-framework.lnx.2.0.c1-rel"/>
